@@ -1,0 +1,20 @@
+.container{
+    margin-top: 50px;
+}
+
+#titulo{
+    background-color: aqua;
+}
+
+a{
+   background-size: cover;
+}
+
+#tituloProducto{
+    background-color: cadetblue;
+}
+
+#volver{
+    position: relative;
+}
+
