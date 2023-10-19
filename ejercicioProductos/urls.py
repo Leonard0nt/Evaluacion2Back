@@ -23,6 +23,7 @@ from app.views import renderProductosRopa
 from app2.views import renderTemplate2
 from app2.views import renderAsia
 from app2.views import renderAmerica
+from app2.views import renderEuropa
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,5 +34,7 @@ urlpatterns = [
     path('render2/',renderTemplate2),
     path('renderAsia/', renderAsia),
     path('renderAmerica/', renderAmerica),
+    path('renderAmerica/', renderEuropa),
+
 
 ]
