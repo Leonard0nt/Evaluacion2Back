@@ -34,7 +34,7 @@ urlpatterns = [
     path('render2/',renderTemplate2),
     path('renderAsia/', renderAsia),
     path('renderAmerica/', renderAmerica),
-    path('renderAmerica/', renderEuropa),
+    path('renderEuropa/', renderEuropa),
 
 
 ]
